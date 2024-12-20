@@ -1,0 +1,11 @@
+.info > .text-container:first-child {
+    margin-bottom: 56px;
+}
+
+.info img {
+    margin-bottom: 56px;
+}
+
+.info-container {
+    gap: 48px;
+}
