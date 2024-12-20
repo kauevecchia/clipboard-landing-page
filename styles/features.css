@@ -1,0 +1,11 @@
+.features {
+    gap: 80px;
+}
+
+.features .text-container:first-child h2 {
+    font-size: 30px;
+}
+
+.features-info img {
+    margin-bottom: 24px;
+}
