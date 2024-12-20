@@ -35,11 +35,16 @@ p {
     font-weight: 400;
 }
 
+.text-container {
+    gap: 16px;
+}
+
 .container {
     max-width: 1440px;
     padding: 32px;
     margin: 0 auto;
     text-align: center;
+    gap: 150px;
 }
 
 img {
