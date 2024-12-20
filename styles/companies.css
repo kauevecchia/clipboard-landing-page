@@ -1,0 +1,8 @@
+.companies {
+    gap: 80px;
+    align-items: center;
+}
+
+.companies img {
+    width: 150px;
+}
