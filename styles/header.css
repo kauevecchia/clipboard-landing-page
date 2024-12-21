@@ -46,3 +46,26 @@ header img {
 .mac:hover {
     background-color: hsla(233, 100%, 69%, 0.750);
 }
+
+@media (min-width: 1280px) {
+    .download {
+        flex-direction: row;
+    }
+
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .text-container p  {
+        font-size: 18px;
+    }
+
+    .ios {
+        padding: 16px 40px;
+    }
+
+    .mac {
+        padding: 16px 40px;
+    }
+}
