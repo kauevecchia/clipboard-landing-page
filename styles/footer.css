@@ -16,6 +16,18 @@ footer {
     gap: 16px;
 }
 
+.attribution a {
+    text-decoration: none;
+}
+    
+.attribution a:hover {
+    text-decoration: underline;
+}
+    
+.footer-text p:hover {
+    color: var(--strong-cyan);
+}
+
 .footer-text p {
     color: var(--dark-grayish-blue);
 }
@@ -30,4 +42,8 @@ footer {
 .socials img {
     width: 24px;
     height: 24px;
+}
+
+.socials-img:hover .svg-path {
+    fill: var(--strong-cyan);
 }

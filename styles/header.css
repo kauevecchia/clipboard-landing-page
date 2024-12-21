@@ -32,6 +32,10 @@ header img {
     box-shadow: 0px 3px 0px hsl(171, 66%, 34%);
 }
 
+.ios:hover {
+    background-color: hsla(171, 66%, 44%, 0.750);
+}
+    
 .mac {
     color: white;
     background-color: var(--light-blue);
@@ -41,4 +45,8 @@ header img {
     font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
     box-shadow: 0px 3px 0px hsl(233, 45%, 49%);
+}
+
+.mac:hover {
+    background-color: hsla(233, 100%, 69%, 0.750);
 }
