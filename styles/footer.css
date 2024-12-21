@@ -1,0 +1,33 @@
+footer .img-container img {
+    width: 56px;
+    height: 56px;
+}
+
+footer {
+    padding-top: 48px;
+    gap: 48px;
+    margin-inline: -64px;
+    margin-bottom: -32px;
+    align-items: center;
+    background-color: hsla(202, 11%, 66%, 0.150);
+}
+
+.footer-text {
+    gap: 16px;
+}
+
+.footer-text p {
+    color: var(--dark-grayish-blue);
+}
+
+.socials {
+    gap: 40px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+}
