@@ -9,3 +9,49 @@
 .info-container {
     gap: 48px;
 }
+
+.info {
+    align-items: center;
+}
+
+@media (min-width: 1280px) {
+    .info {
+        gap: 56px;
+    }
+
+    .desktop-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        gap: 80px;
+        margin-inline: -64px;
+        position: relative;
+        margin-bottom: 200px;
+    }
+
+    .desktop-container .info-container .text-container {
+        align-items: self-start;
+        text-align: left;
+        width: 60%;
+    }
+
+    .desktop-container .info-container {
+        margin-top: 72px;
+        margin-left: 48px;
+    }
+
+    .info-img {
+        width: 45rem;
+    }
+
+    .desktop-container .info-img img {
+        position: absolute;
+        top: 48%;
+        left: 14%;
+        scale: 2.8;
+    }
+
+    
+}
+
