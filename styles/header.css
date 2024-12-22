@@ -8,6 +8,10 @@ header p {
     font-size: 17px;
 }
 
+header h1 {
+    font-size: 32px;
+}
+
 header img {
     width: 128px;
     height: 128px;
