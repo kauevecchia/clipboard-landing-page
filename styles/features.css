@@ -1,5 +1,8 @@
 .features {
     gap: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .features .text-container:first-child h2 {
@@ -7,5 +10,9 @@
 }
 
 .features-info img {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
+}
+
+.features-container {
+    gap: 80px;
 }
