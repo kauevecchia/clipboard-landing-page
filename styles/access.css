@@ -2,3 +2,18 @@
     gap: 48px;
     align-items: center;
 }
+
+@media (min-width: 1280px) {
+    .access-clipboard {
+        align-items: center;
+        position: relative;
+        margin-bottom: 450px;
+    }
+
+    .access-clipboard img {
+        scale: 2.5;
+        position: absolute;
+        left: 20vw;
+        top: 35vh;
+    }
+} 
