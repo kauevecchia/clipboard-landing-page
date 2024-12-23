@@ -6,3 +6,10 @@
 .companies img {
     width: 150px;
 }
+
+@media (min-width: 1280px) {
+    .companies {
+        flex-direction: row;
+        gap: 100px;
+    }
+}
