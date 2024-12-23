@@ -3,11 +3,23 @@ footer .img-container img {
     height: 56px;
 }
 
+.img-container {
+    width: 56px;
+    height: 56px;
+}
+
+.footer-info {
+    align-items: center;
+    gap: 32px;
+}
+
 footer {
     padding-top: 48px;
     gap: 48px;
     margin-inline: -64px;
     margin-bottom: -32px;
+    padding-bottom: 80px;
+    margin-top: 80px;
     align-items: center;
     justify-content: center;
     width: 100vw;
@@ -16,6 +28,7 @@ footer {
 
 .footer-text {
     gap: 16px;
+    align-items: center;
 }
 
 .attribution a {
@@ -24,6 +37,10 @@ footer {
     
 .attribution a:hover {
     text-decoration: underline;
+}
+
+.attribution {
+    font-size: 14px;
 }
     
 .footer-text p:hover {
@@ -48,4 +65,46 @@ footer {
 
 .socials-img:hover .svg-path {
     fill: var(--strong-cyan);
+}
+
+@media (min-width: 1280px) {
+    footer.flex-column {
+        flex-direction: row;
+        padding: 56px 56px 100px 56px;
+        justify-content: space-around;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        text-align: left;
+    }
+
+    .footer-text p:hover {
+        cursor: pointer;
+    }
+
+    .footer-info {
+        gap: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .socials-img:hover .svg-path {
+        cursor: pointer;
+    }
+
+    .socials {
+        gap: 24px;
+    }
+
+    .attribution {
+        font-size: 16px;
+    }
+
+    .attribution a:hover {
+        cursor: pointer;
+    }
 }
