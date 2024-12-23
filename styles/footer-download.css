@@ -2,3 +2,17 @@
     gap: 48px;
     align-items: center;
 }
+
+@media (min-width: 1280px) {
+    .footer-download {
+        margin-bottom: 120px;
+    }   
+
+    .ios:hover {
+        cursor: pointer;
+    }
+
+    .mac:hover {
+        cursor: pointer;
+    }
+}
